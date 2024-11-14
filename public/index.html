@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altitude Air Signup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="inner-container">
+
+            <div class="left">
+                <img src="Plane.jpg" alt="Plane view" class="background-image">
+                <div class="overlay">
+                    <h1>Altitude Air</h1>
+                    <hr></hr>
+                    <p>We promise to ensure that your well-being is taken care of while travelling with us. Boasting top
+                        in class fleet inventory and a 5-star approval for our in-flight experience, you know you're
+                        getting the best from Altitude with no attitude.</p>
+                </div>
+            </div>
+            <div class="right">
+                <div class="form-container">
+                    <button class="sign-in">Sign In</button>
+                    <h1 id="form-heading">Explore & Experience</h1>
+                    <p id="form-sub-line">Get onto your most comfortable journey yet. All the way up.</p>
+                    <form id="signup-form">
+                        <div class="input-group">
+                            <input type="text" placeholder="First Name" required name="firstName">
+                            <input type="text" placeholder="Last Name" required name="lastName">
+                        </div>
+                        <input type="email" placeholder="Email" required name="email">
+                        <input type="text" placeholder="Username" required name="username">
+                        <input type="password" placeholder="Password" required name="password">
+                        <input type="password" placeholder="Confirm Password" required name="confirmPassword">
+                        <span id="password-error" style="color: red; display: none;">Passwords do not match</span>
+                        <button type="submit">Get Started</button>
+                    </form>
+                    <div id="notification" class="notification" style="display: none;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
