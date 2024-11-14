@@ -67,8 +67,6 @@ html {
 .overlay h1 {
     font-size: 3rem;
     margin-top: 30px;
-    /* margin-bottom: 15px; */
-
 }
 
 .overlay hr {
@@ -84,9 +82,7 @@ html {
     font-size: 0.9rem;
     width: 80%;
     margin: auto;
-    /* letter-spacing: 1px; */
     text-align: center;
-    /* font-weight: 50; */
 }
 
 
@@ -117,6 +113,7 @@ html {
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
     width: 8rem;
+    text-transform: uppercase;
 }
 
 .sign-in:hover {

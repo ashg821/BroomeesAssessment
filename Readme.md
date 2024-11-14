@@ -5,7 +5,7 @@
     $ npm i
 ```
 
-### Change mongoDB URI details in .env files
+### Change mongoDB URI details in .env file
 
 ### Launch the app
 ```bash
